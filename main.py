@@ -1,6 +1,13 @@
 def find_largest(numbers):
-    # TODO: implement
-    pass
+    max=numbers[0]
+
+    for nums in numbers:
+      if nums>max:
+
+        max=nums
+
+    return max
+    
 
 
 numbers = [4, 12, 7, 19, 3]
